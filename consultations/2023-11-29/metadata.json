@@ -1,0 +1,8 @@
+{
+  "code": [
+    "./code/App.tsx",
+    "./code/Counsultation20.tsx",
+    "./code/index.ts",
+    "./code/styles.css"
+  ]
+}
