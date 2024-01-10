@@ -1,0 +1,25 @@
+body {
+  font-size: 32px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.book-img {
+  height: 150px;
+}
+
+#add-book-form {
+  /* граница */
+  border: 2px solid black;
+  /* закругление границы */
+  border-radius: 10px;
+  /* цвет фона */
+  background-color: cornflowerblue;
+  /* внутренний отступ */
+  padding: 10px;
+  /* внешний отступ */
+  margin: 10px;
+}
