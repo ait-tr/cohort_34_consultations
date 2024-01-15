@@ -1,10 +1,10 @@
 {
   "code": [
-    "consultations/2024-01-15/code/media/vk.svg",
-    "consultations/2024-01-15/code/media/youtube.svg",
-    "consultations/2024-01-15/code/styles/ABeeZee-Italic.ttf",
-    "consultations/2024-01-15/code/styles/ABeeZee-Regular.ttf",
-    "consultations/2024-01-15/code/styles/index.css",
-    "consultations/2024-01-15/code/index.html"
+    "./code/index.html",
+    "./code/styles/index.css",
+    "./code/media/vk.svg",
+    "./code/media/youtube.svg",
+    "./code/styles/ABeeZee-Italic.ttf",
+    "./code/styles/ABeeZee-Regular.ttf"
   ]
 }
