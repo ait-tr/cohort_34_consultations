@@ -1,0 +1,75 @@
+/* подключаем шрифты */
+@font-face {
+  font-family: ABeeZee;
+  src: url("./ABeeZee-Regular.ttf");
+}
+
+@font-face {
+  font-family: ABeeZee;
+  font-style: italic;
+  src: url("./ABeeZee-Italic.ttf");
+}
+
+body {
+  /* используем шрифт ABeeZee */
+  font-family: ABeeZee;
+  font-size: 32px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+#add-book-form {
+  /* граница */
+  border: 2px solid black;
+  /* закругление границы */
+  border-radius: 10px;
+  /* цвет фона */
+  background-color: cornflowerblue;
+  /* внутренний отступ */
+  padding: 10px;
+  /* внешний отступ */
+  margin: 10px;
+}
+
+.books-list {
+  display: flex;
+  gap: 20px;
+  /* выравниваем элементы относительно дополнительной оси (оси Y в этом случае) */
+  justify-content: center;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+}
+
+.book-img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.book-new {
+  /* используем шрифт ABeeZee */
+  font-family: ABeeZee;
+  font-style: italic;
+  width: 50px;
+  height: 50px;
+  background-color: cadetblue;
+  border-radius: 50%;
+  font-size: 20px;
+
+  /* выравниваем текст по центру (вертикали и горизонтали) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* позиционируем этикетку сверху */
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
