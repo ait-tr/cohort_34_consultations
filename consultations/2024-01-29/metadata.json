@@ -1,0 +1,8 @@
+{
+  "code": [
+    "./code/index.html",
+    "./code/style/style.css",
+    "./code/script/script.js",
+    "./code/git-commands.md"
+  ]
+}
